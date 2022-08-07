@@ -1,0 +1,372 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,800;1,900&display=swap');
+
+
+* {/*no9sdou lehnee les élements lkol*/
+    font-family: 'Roboto','sans-serif';
+    margin: 2;
+    padding: 1;
+    box-sizing: border-box;/*bch child box ye5rojch l contour te3ou ml contour ta3 l parent  te3ou*/
+    scroll-behavior: smooth;
+    font-size: 0.91em;
+}
+header{
+    background-color: #f0f0f0;
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 200px;/*top w buttom*/
+}
+
+.text{
+    white-space: pre;
+    border: 15px double #000;
+    background-color: gainsboro;
+}
+.logo{
+    text-decoration: none;
+    color: rgb(40, 40, 130);
+    text-transform: uppercase;
+    font-weight: 700;/*trodha gras*/
+    font-size: 1.75em;/*12=16px w kn tetbadl 7aja hiya tetbadl w7adha*/
+}
+.navigation a{
+    color: rgb(122, 122, 132);
+    text-decoration: none;
+    font-size: 1.4em;
+    font-weight: 500;
+    padding-left:30px ;
+}
+.navigation a:hover{/*li 3maltha tw trodlk ki t7ot l curseur 3ala elem ml a tetbadl lounha ll 5zema*/
+    color: purple;
+}
+section{
+    padding: 100px 200px;
+}
+
+
+
+
+.main{
+    
+    height: 100vh;/*view height*/
+    display: flex;
+    align-items: center;/*tajm testaaml align-items ella matestaaml 9balha display flex*/
+    background: url(image/enit.jpeg
+    ) no-repeat;
+    background-size: cover;
+    background-position: left;
+    background-attachment: fixed;/*ki tescrolli l background tof teb9a fixe*/
+}
+
+#i1{
+    text-align:right;
+}
+
+.main h2{
+    color: aliceblue;
+    font-size: 1.8em;
+    font-weight: 800;
+}
+.main h2 span{
+    color: black;
+    font-size: 1em;
+    font-weight: 900;
+    margin-top: 10px;
+}
+.main h3{
+    color: #f0f0f0;
+    font-size: 2.5em;
+    letter-spacing: 2px;
+    font-weight: 1000;
+    margin-top: 8px;
+    margin-bottom: 20px;
+}
+.main h4{
+    color: #f0f0f0;
+    font-size: 1.6em;
+    letter-spacing: 1.5px;
+    font-weight: 900;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.main-button{
+    color: #f0f0f0;
+    background-color: #3a6cf4;
+    text-decoration: none;
+    font-size: 1.2em;
+    font-weight: 600;
+    display: inline-block;
+    padding: 0.9375em 2.1875em;
+    border-radius: 15px;
+    margin-bottom: 40px;
+    letter-spacing: 1px;
+    transition: 0.7s ease;/*wa9t tal3an l buttom yeb9a 0.7s*/
+}
+.main-button:hover{/*bch naamlou modifll button */
+    background-color: #0a49f6;
+    transform: scale(1.1);/*l buttom yekber b 1.13l x wl y*/
+}
+.im{
+    position: relative;
+    left: 170px;
+}
+.img1{
+    position: relative;
+    left: 900px;
+    bottom: 190px;
+}
+.social-icons a{
+    color: black;
+    font-size: 1.7em;
+    padding-right: 30px;
+
+}
+.title{
+    display: flex;
+    justify-content: center;/*bch najmou nrodouha f centre*/
+    color: #405cab;
+    font-size:  2.2em;
+    font-weight: 800;
+    margin-bottom: 30px/*bch thabatha louta*/;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;/*bch t7othom b jnab b3athhom kn t7ebhom ta7t b3athhom 7ot colum*/
+    flex-wrap: wrap;
+    
+}
+
+.mag{
+
+    float: left;
+    margin: 0 10px 10px 0 ;
+    border-style: inset;
+    border-radius: 10% / 50%;
+}
+mag1{
+
+    float: left;
+    margin: 0 10px 10px 0 ;
+}
+.mag2{
+
+    float: right;
+    margin: 0 10px 10px 0 ;
+    border-style: inset;
+    border-radius: 10% / 50%;
+}
+.cards{
+
+    border-style: inset;
+    border-radius: 8px;
+    background-color: gainsboro;
+}
+.card{
+    background-color: white;
+    width: 20em;
+    height: 20em;
+    box-shadow: 0 5px 5px rgba(1 1 1 /15%);
+    border-radius: 25% 10%;
+    padding: 1em;
+    margin:15px ;/*ml bara ml card*/
+    transition: 0.7s ease;
+   
+}
+.card:hover{
+    transform: scale(1.1);
+}
+.icon{
+    color: #0a49f6;
+    font-size: 4em;
+    text-align: center;
+}
+.info{
+    text-align: center;
+}
+.info h3{
+    color: #0a49f6;
+    font-size: 1.2em;
+    font-weight: 700;
+    margin: 10px ;
+}
+.projects{
+    background-color: #2d5767;
+}
+
+.Code MPLAB XC8{
+    background-color: #f6f6fc;
+}
+
+
+  
+  
+ 
+  
+  .box .content{
+    position:absolute;
+    top:15px;
+    left:15px;
+    right:15px;
+    bottom:15px;
+    border:1px solid #f0a591;
+    padding:20px;
+    text-align:center;
+    box-shadow: 0 5px 10px rgba(9,0,0,0.5);
+    
+  }
+  .bttn {
+    background-color: DodgerBlue;
+    border: none;
+    color: white;
+    padding: 12px 30px;
+    cursor: pointer;
+    font-size: 20px;
+  }
+  
+  .box span{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+    box-sizing: border-box;
+    
+  }
+  
+  .box span:nth-child(1)
+  {
+    transform:rotate(0deg);
+  }
+  
+  .box span:nth-child(2)
+  {
+    transform:rotate(90deg);
+  }
+  
+  .box span:nth-child(3)
+  {
+    transform:rotate(180deg);
+  }
+  
+  .box span:nth-child(4)
+  {
+    transform:rotate(270deg);
+  }
+  
+  .box span:before
+  {
+    content: '';
+    position: absolute;
+    width:100%;
+    height: 2px;
+    background: #50dfdb;
+    animation: animate 4s linear infinite;
+  }
+  
+  @keyframes animate {
+    0% {
+    transform:scaleX(0);
+    transform-origin: left;
+    }
+    50%
+    {
+      transform:scaleX(1);
+    transform-origin: left;
+    }
+    50.1%
+    {
+      transform:scaleX(1);
+    transform-origin: right;
+      
+    }
+    
+    100%
+    {
+      transform:scaleX(0);
+    transform-origin: right;
+      
+    }
+    
+    
+  } 
+
+.more-details{
+    text-decoration: none;
+    color: #3a6cf4;
+}
+.more-details:hover{
+    color: #601cfc;
+}
+.contact .icon{
+    font-size: 4.5em;
+}
+.contact .info h3{
+    color: #000;
+}
+.contact .info p{
+    font-size: 1.2em;
+}
+footer{
+    background-color:#fafafc ;
+    color: rgb(18, 31, 104);
+    padding: 2em;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-title{
+    font-size: 1.3em;
+    font-weight: 600;
+}
+.footer-title span{
+    color: #042379;
+}
+.footer .social-icons a{/*3malna hakka bch yefhem eli l social-items li teb3in l fotter barka*/
+    font-size: 1.3em;
+    padding: 0 12px 0 0;
+
+}
+@media (max-width:1024px){
+    header{
+        padding: 12px 20px;
+    }
+    .navigation a{
+        padding-left: 10px;
+    }
+    .title{
+        font-size: 1.4em;
+    }
+    section{
+        padding: 80px 20px;
+    }
+    .main-content h2{
+        font-size: 1em;
+    }
+    .main-content h3{
+        font-size: 1.6em;
+    }
+    .content{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+@media (max-width:641px){
+    body{
+        font-size: 12px;
+    }
+    .main-content h2{
+        font-size: 0.8em;
+    }
+    .main-content h3{
+        font-size: 1.4em;
+    }
+}
+@media (max-width){
+    body{
+        font-size: 10px;
+    }
+}
